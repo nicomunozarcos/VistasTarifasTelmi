@@ -1,0 +1,125 @@
+.container{
+	max-width: 1180px !important;
+}
+
+.btn-telmi{
+	color: #ffffff;
+    background-color: #81b836;
+    border-color: #80b538;
+}
+
+.btn-success{
+	background-color: #3e772c !important;
+}
+
+.btn-telmi:hover {
+	color: #fff !important;
+    	background-color: #62882f;
+    	border-color: #57772c;
+}
+
+.headerpad{
+	padding: 10%;
+}
+
+.pl-1{
+	padding-left: 5%;
+}
+.pl-2{
+	padding-left: 15%;
+}
+.pl-3{
+	padding-left: 25%;
+}
+.pl-4{
+	padding-left: 33.333%;
+}
+
+.pr-1{
+	padding-right: 5%;
+}
+.pr-2{
+	padding-right: 15%;
+}
+.pr-3{
+	padding-right: 25%;
+}
+.pr-4{
+	padding-right: 33.333%;
+}
+
+.ml-1{
+	margin-left: 5%;
+}
+.ml-2{
+	margin-left: 15%;
+}
+.ml-3{
+	margin-left: 25%;
+}
+.ml-4{
+	margin-left: 33.333%;
+}
+
+.ml-5{
+	margin-left: 65%;
+}
+
+.ml-half{
+	margin-left: 50%;
+}
+
+.mr-1{
+	margin-right: 5%;
+}
+.mr-2{
+	margin-right: 15%;
+}
+.mr-3{
+	margin-right: 25%;
+}
+.mr-4{
+	margin-right: 33.333%;
+}
+
+
+.centrado{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.align-start2{
+	align-items: start;
+	text-align: left;
+	text-align: start;
+	align-content: start;
+	align-items: left;
+	align-content: left;
+	justify-content: left;
+	justify-content: start;
+	justify-self: left;
+	justify-self: start;
+	justify-items: left;
+	justify-items: start;
+	text-justify: left;
+	text-justify: start;
+}
+
+.mt-6{
+	margin-top: 3.5rem;
+}
+
+
+.align-right{
+	text-align: right;
+}
+
+.align-left{
+	text-align: left;
+}
+
+
+
+
+
+
