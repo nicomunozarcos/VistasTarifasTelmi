@@ -37,7 +37,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
                   </svg></button>
-                <div class="col card mb-4 rounded-3 shadow ">
+                <div class="col card mb-4 rounded-3 shadow "  id="card1">
                     <div class="card-header row py-3 bg-secondary mx-0">
                         <h4 class="fw text-light col-md-6 align-items-center"><i class="bi bi-house"></i> Internet </h4>
                         <h4 class="text-light fw-bold col-md-6 align-items-center"><span id="producto-1m">-- €/mes</span></h4>
@@ -45,7 +45,8 @@
                     <div class="card-body mt-2 mb-3">
                         <div class="row justify-content-center">
                             <h2>
-                                <h4 class="text-muted fw-normal col-md-12 col-sm-12 col-lg-12 ml-1" id="denominacion" >MB subida/bajada</h4>
+                                <h4 class="text-muted fw-normal col-md-12 col-sm-12 col-lg-12 ml-1" id="producto-1s" >MB subida</h4>
+                                <h4 class="text-muted fw-normal col-md-12 col-sm-12 col-lg-12 ml-1" id="producto-1b" >MB bajada</h4>
                             </h2>
                         </div>
                         <div class="row justify-content-center">
@@ -59,7 +60,7 @@
                 <button type="button" class="btn btn-success " id="btn-menos">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-                  </svg></button>
+                </svg></button>
             </div>
             <!-- Columna movil -->
             <div class="col col-md-4 col-sm-4 col-lg-4">
@@ -67,7 +68,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
                   </svg></button>
-                <div class="col card mb-4 rounded-3 shadow">
+                <div class="col card mb-4 rounded-3 shadow"  id="card2"> 
                     <div class="card-header row py-3 align-items-center bg-secondary mx-0">
                         <h4 class="fw text-light px-1 col-md-6 align-items-center"><i class="bi bi-phone"></i> Línea Móvil</h4>
                         <h4 class="text-light fw-bold col-md-6 align-items-center"><span id="eurosMovil">-- €/mes</span></h4>
@@ -76,14 +77,10 @@
                         <div class="row justify-content-center">
                             <h2 class="card-title princing-card-title">
                                 <h4 class="text-muted fw-normal col-md-12 col-sm-12 col-lg-12 ml-1"><span id="gigasMovil">-- GB</span></h4>
-                            </h2>
-                        </div>
-                        <div class="row justify-content-center">
-                            <h2>
                                 <h4 class="text-muted fw-normal col-md-12 ml-1"><span id="minutosMovil">-- minutos</span></h4> 
                             </h2>
                         </div>
-                        <ul class="list-unstyled mt-3 mb-3">
+                        <ul class="list-unstyled mt-6 mb-3">
                             <li>¿Necesitas más datos o más minutos?</li>
                         </ul>
                         <button type="button" class="w-50 btn btn-lg btn-telmi" id="addbutton2" onclick="agregarAlCarrito1(productosMovil[contadorMovil].AR_COD_ARTICULO)" disabled>Añadir</button>
@@ -101,7 +98,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
                   </svg></button>
-                <div class="card mb-4 rounded-3 shadow">
+                <div class="card mb-4 rounded-3 shadow "  id="card3">
                     <div class="card-header row py-3 align-items-center bg-secondary mx-0">
                         <h4 class="fw text-light px-1 col-md-6 align-items-center"><i class="bi bi-telephone"></i> Línea Fija</h4>
                         <h4 class="text-light fw-bold col-md-6 align-items-center"><span id="producto-tarifa">-- €/mes</span></h4>
@@ -109,11 +106,11 @@
                     <div class="card-body mt-2 mb-2">
                         <div class="row justify-content-center">
                             <h2 class="card-title princing-card-title">
-                            <h4 class="text-muted fw-normal col-md-12 col-sm-12 col-lg-12 text-center mt-1 px-0" id="producto-fij">-- min a fijos nacionales</h4>
-                            <h4 class="text-muted fw-normal col-md-12 col-sm-12 col-lg-12 text-center mt-1 px-0" id="producto-mov">-- min a fijos nacionales</h4>
+                            <h4 class="text-muted fw-normal col-md-12 col-sm-12 col-lg-12 ml-1" id="producto-fij">-- min a fijos nacionales</h4>
+                            <h4 class="text-muted fw-normal col-md-12 col-sm-12 col-lg-12 ml-1" id="producto-mov">-- min a fijos nacionales</h4>
                             </h2>
                             </div>
-                        <ul class="list-unstyled mt-3 mb-3">
+                        <ul class="list-unstyled mt-6 mb-3">
                             <li>Elige tu línea de fijo y habla por los codos.</li>
                         </ul>
                         <button type="button" class="w-50 btn btn-lg btn-telmi" id="addbutton3" onclick="agregarAlCarrito2(productosFijo[contadorFijo].AR_COD_ARTICULO)" disabled>Añadir</button>

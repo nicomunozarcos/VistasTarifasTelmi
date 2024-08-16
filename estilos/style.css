@@ -106,7 +106,7 @@
 }
 
 .mt-6{
-	margin-top: 3.5rem;
+	margin-top: 3.7rem;
 }
 
 
@@ -118,7 +118,26 @@
 	text-align: left;
 }
 
+@media (max-width: 576px) {
+    .col {
+        width: 90%; /* Ocupa el 80% de la pantalla en móviles */
+        margin: 10px auto; /* Centra las tarjetas y agrega un margen superior e inferior */
+        display: block;
+		margin-left: 6%;
+    }
 
+    .card-header {
+        padding: 0.75rem 1rem;
+    }
+
+    .card-body {
+        padding: 0.75rem 1rem;
+    }
+
+	#btn-mas-fijo{
+		margin-top: 20px;
+	}
+}
 
 
 
